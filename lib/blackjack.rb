@@ -43,12 +43,15 @@ def hit?(n)
   elsif choice = 's'
     nil
   else choice != 'h' && choice != 's'
-    
+    invalid_command
+    prompt_user
   end
+  card_total
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command."
 end
 
 #####################################################
