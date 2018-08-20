@@ -5,29 +5,33 @@ end
 
 def deal_card
   # code #deal_card here
-  rand(1..11)
 end
 
-def display_card_total
+def display_card_total(n)
   # code #display_card_total here
-  "Type 'h' to hit or 's' to stay "
+  puts "Your cards add up to #{card_total}"
 end
 
-def prompt_user(card_total)
+def prompt_user
   # code #prompt_user here
-  puts "your cards add up to #{card_total}"
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
   # code #get_user_input here
+  user_input = gets.chomp
 end
 
 def end_game
   # code #end_game here
+  puts "Sorry, you hit #{card_total}. Thanks for playing"
 end
 
 def initial_round
   # code #initial_round here
+  deal_card
+  deal_card
+  display_card_total(arg1, arg2)
 end
 
 def hit?
