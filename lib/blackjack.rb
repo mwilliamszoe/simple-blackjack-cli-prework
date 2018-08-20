@@ -29,7 +29,7 @@ end
 
 def initial_round
   # code #initial_round here
- puts deal_card + deal_card
+ puts "#{deal_card} + #{deal_card}"
 end
 
 def hit?(n)
