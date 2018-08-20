@@ -34,7 +34,7 @@ end
 #   display_card_total(arg1, arg2)
 # end
 
-def hit?
+def hit?(n)
   # code hit? here
 end
 
