@@ -29,9 +29,7 @@ end
 
 def initial_round
   # code #initial_round here
-  deal_card
-  deal_card
-  display_card_total(arg1, arg2)
+ puts deal_card + deal_card
 end
 
 def hit?(n)
