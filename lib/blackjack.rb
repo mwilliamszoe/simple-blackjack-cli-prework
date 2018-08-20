@@ -37,7 +37,7 @@ def hit?(n)
   prompt_user
   choice = get_user_input
   if choice = 'h'
-    deal_card +=1
+    deal_card
   elsif choice = 's'
     nil
   else choice != 'h' && choice != 's'
