@@ -36,6 +36,15 @@ end
 
 def hit?(n)
   # code hit? here
+  prompt_user
+  choice = get_user_input
+  if choice = 'h'
+    deal_card +=1
+  elsif choice = 's'
+    nil
+  else choice != 'h' && choice != 's'
+    
+  end
 end
 
 def invalid_command
